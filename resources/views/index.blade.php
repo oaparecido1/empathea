@@ -4,9 +4,6 @@
     <div class="mysite_index-header d-flex justify-content-between">
         <h1>Empathea</h1>
         <div class=" mysite_index-link d-flex justify-content-around">
-            <a href="#">
-                about
-            </a>
             <!-- Button trigger modal -->
             <a href="#" data-toggle="modal" data-target="#exampleModalCenter">
                 Login
@@ -27,12 +24,31 @@
                 <p>
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                 </p>
-                <a href="/home">more</a>
+                <a href="#" data-toggle="modal" data-target="#exampleModalAbout">more</a>
             </div>
         </div>
     </main>
 
     <!-- Modal -->
+    <div class="modal fade" id="exampleModalAbout" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document" style="width: 30vw">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">About to empathea</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">ok!</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
          aria-labelledby="exampleModalCenterTitle"
          aria-hidden="true">
