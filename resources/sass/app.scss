@@ -1,1 +1,15 @@
-//
+// Reset CSS
+//@import 'reset';
+
+@import '~bootstrap/scss/bootstrap';
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+// import class
+@import 'index';
+@import 'home';
+
+// Colors
+$black: #000;
+$blue-main: #24D1F8;

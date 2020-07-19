@@ -1,0 +1,37 @@
+
+.container {
+    max-width: 73vw;
+    margin-top: 2em;
+
+    h1 {
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .mysite_home-card {
+        max-width: 23vw;
+        max-height: 30vh;
+        border-radius: 15px;
+        background: #24D1F8;
+
+        img {
+            border-right: 2px solid #873F30;
+            max-width: 9vw;
+            max-height: 25vh;
+        }
+
+        .mysite_home-card-content {
+
+            h1, h3, p, a {
+                font-family: 'Roboto', sans-serif;
+                color: #fff;
+            }
+
+            a {
+                padding: .4em 1em;
+                border-radius: 10px;
+                background: #873F30;
+                font-size: 1.2em;
+            }
+        }
+    }
+}
